@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/assets/images/logo.png">
+  <title>Shayne Heffernan</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/font.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+<body class="bg-black text-white font-serif">
+
+  <!-- Hero Section -->
+  <section class="relative w-full min-h-screen overflow-hidden flex items-center bg-black">
+    <!-- Background Image -->
+    <img src="/assets/images/bg1.jpg" alt="Background" class="absolute inset-0 w-full h-full object-cover z-0" />
+    <div class="absolute inset-0 bg-black/50 z-10"></div>
+
+    <!-- Main Content Container -->
+    <div class="relative z-20 w-full flex flex-col lg:flex-row items-center justify-between gap-10 px-[10px] lg:px-[100px]">
+
+      <!-- Left: Text Content -->
+      <div class="flex-1 text-left pt-10 lg:pt-0">
+        <h1 class="text-6xl lg:text-7xl font-[Baskerville] relaxed">
+          Shayne<br>
+          <span class="font-[Baskerville]">Heffernan</span>
+        </h1>
+        <p class="text-yellow-400 text-2xl font-lvf mt-5">Ph.D</p>
+        <p class="text-lg mt-2 font-lvf">Economist at Knightsbridge</p>
+        <a href="#contact" class="inline-block font-lvf border border-yellow-400 text-white mt-2 px-6 py-2 rounded-full hover:bg-yellow-400 hover:text-black transition duration-300">
+          Contact Me
+        </a>
+        <!-- Social Icons -->
+<div class="flex gap-4 m-top">
+  <!-- Facebook -->
+  <a href="#" aria-label="Facebook"
+     class="w-10 h-10 flex items-center justify-center rounded-full border border-white transition bg-transparent hover:bg-white group">
+    <img src="/assets/images/icon/facebookขาว.svg"
+         alt="Facebook"
+         class="w-5 h-5 transition group-hover:hidden" />
+    <img src="/assets/images/icon/Facebookดำ.svg"
+         alt="Facebook"
+         class="w-5 h-5 hidden transition group-hover:block" />
+  </a>
+
+  <!-- X (Twitter) -->
+  <a href="#" aria-label="X"
+     class="w-10 h-10 flex items-center justify-center rounded-full border border-white transition bg-transparent hover:bg-white group">
+    <img src="/assets/images/icon/twitterขาว.svg"
+         alt="X"
+         class="w-5 h-5 transition group-hover:hidden" />
+    <img src="/assets/images/icon/Twitterดำ.svg"
+         alt="X"
+         class="w-5 h-5 hidden transition group-hover:block" />
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="#" aria-label="LinkedIn"
+     class="w-10 h-10 flex items-center justify-center rounded-full border border-white transition bg-transparent hover:bg-white group">
+    <img src="/assets/images/icon/Linkedinขาว.svg"
+         alt="LinkedIn"
+         class="w-5 h-5 transition group-hover:hidden" />
+    <img src="/assets/images/icon/Linkedinดำ.svg"
+         alt="LinkedIn"
+         class="w-5 h-5 hidden transition group-hover:block" />
+  </a>
+
+  <!-- Globe -->
+  <a href="#" aria-label="Website"
+     class="w-10 h-10 flex items-center justify-center rounded-full border border-white transition bg-transparent hover:bg-white group">
+    <img src="/assets/images/icon/Webขาว.svg"
+         alt="Website"
+         class="w-5 h-5 transition group-hover:hidden" />
+    <img src="/assets/images/icon/WEBดำ.svg"
+         alt="Website"
+         class="w-5 h-5 hidden transition group-hover:block" />
+  </a>
+</div>
+
+      </div>
+
+      <!-- Right: Image Stack -->
+<div class="relative w-full h-auto mt-10 lg:flex-1 lg:h-full lg:relative">
+  <!-- 🌍 Globe Background -->
+  <div class="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[1000px] max-w-[80vw] opacity-30 z-0 pointer-events-none hidden lg:block">
+    <img src="/assets/images/โลก.png" alt="Globe" class="w-full h-auto" />
+  </div>
+
+ <!-- 👨‍🦰 3 Men Stack -->
+
+<!-- 🟢 Mobile Version: ซ้อนตรงกลาง -->
+<div class="block lg:hidden relative w-full h-[310px]">
+  <!-- Left -->
+  <img src="/assets/images/bg3.png"
+       class="absolute top-[16%] left-[43%] -translate-x-1/2 w-[55%] max-w-[230px] z-10" data-sequence="0" />
+  <!-- Middle -->
+  <img src="/assets/images/bg2.png"
+       class="absolute top-[15%] left-1/2 -translate-x-1/2 w-[65%] max-w-[260px] z-20" data-sequence="2" />
+  <!-- Right -->
+  <img src="/assets/images/bg4.png"
+       class="absolute top-[18%] left-[60%] -translate-x-1/2 w-[50%] max-w-[200px] z-0" data-sequence="1" />
+</div>
+
+<!-- 🖥️ Desktop Version: เรียงแนวนอน -->
+<div class="hidden lg:block relative z-10 w-full h-full mt-[90vh]">
+  <!-- Left -->
+  <img src="/assets/images/bg3.png"
+       class="image-fade opacity-0 translate-y-10 transition-all duration-700 absolute bottom-0 left-[0%] w-[35vw] max-w-[550px] h-auto z-20"
+       data-sequence="0" />
+  <!-- Middle -->
+  <img src="/assets/images/bg2.png"
+       class="image-fade opacity-0 translate-y-10 transition-all duration-700 absolute bottom-0 left-1/2 -translate-x-1/2 w-[35vw] max-w-[600px] h-auto z-30"
+       data-sequence="2" />
+  <!-- Right -->
+  <img src="/assets/images/bg4.png"
+       class="image-fade opacity-0 translate-y-10 transition-all duration-700 absolute bottom-0 right-[3%] w-[35vw] max-w-[500px] h-auto z-10"
+       data-sequence="1" />
+</div>
+
+
+<!-- 🪙 Bitcoin -->
+<div class="relative z-50 w-[80%] max-w-[400px] mx-auto -mt-10 
+            lg:absolute lg:bottom-[-9%] lg:left-[37%] lg:-translate-x-1/2 
+            lg:w-[60vw] lg:max-w-[1000px]">
+  <img src="/assets/images/เหรียญ.png" alt="Bitcoin Coins" class="w-full h-auto" />
+</div>
+
+
+</div>
+
+
+
+  </section>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>

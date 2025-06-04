@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'LibreBaskerville-Bold';
+  src: url('/assets/fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'LibreBaskerville-Italic';
+  src: url('/assets/fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'LibreBaskerville-Regular';
+  src: url('/assets/fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Lexend-VariableFont_wght';
+  src: url('/assets/fonts/Lexend/Lexend-VariableFont_wght.ttf') format('truetype');
+}
+
+
+.font-lb-b {
+  font-family: 'LibreBaskerville-Bold', serif;
+}
+
+.font-lb-i {
+  font-family: 'LibreBaskerville-Italic', serif;
+}
+
+.font-lb-r {
+  font-family: 'LibreBaskerville-Regular', sans-serif;
+}
+
+.font-lvf {
+  font-family: 'Lexend-VariableFont_wght', sans-serif;
+}

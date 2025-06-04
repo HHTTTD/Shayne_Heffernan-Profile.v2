@@ -1,0 +1,54 @@
+.m-top{
+margin-top: 10rem;
+}
+
+.image-fade {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.image-fade.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+  @media (max-width: 1024px) {
+
+
+    .m-top{
+    margin-top: 5rem;
+    }
+
+
+    .lg\\:block {
+      display: block !important;
+    }
+
+    .lg\\:flex-row {
+      flex-direction: column !important;
+    }
+
+    .text-6xl, .lg\\:text-7xl {
+      font-size: 2.5rem !important;
+      line-height: 1.2 !important;
+    }
+
+    .image-fade {
+      width: 80vw !important;
+      position: static !important;
+      transform: none !important;
+      display: block;
+      margin: 1rem auto;
+    }
+
+    .image-fade.show {
+      opacity: 1;
+    }
+
+    .relative.flex-1.hidden.lg\\:block.h-full {
+      display: block !important;
+      padding-top: 2rem;
+    }
+  }

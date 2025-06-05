@@ -13,6 +13,12 @@ margin-top: 20rem;
   transform: translateY(0);
 }
 
+.custom-hover:hover {
+  background-color: #e1d502;
+  color: black;
+}
+
+
 
   @media (max-width: 1024px) {
 

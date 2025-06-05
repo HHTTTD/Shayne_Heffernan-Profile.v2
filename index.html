@@ -9,19 +9,22 @@
   <link rel="stylesheet" href="/assets/css/font.css">
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- ✅ Preload Hover Icons -->
+  <link rel="preload" href="/assets/images/icon/Facebookดำ.svg" as="image">
+  <link rel="preload" href="/assets/images/icon/Twitterดำ.svg" as="image">
+  <link rel="preload" href="/assets/images/icon/Linkedinดำ.svg" as="image">
+  <link rel="preload" href="/assets/images/icon/WEBดำ.svg" as="image">
 </head>
+
 <body class="bg-black text-white font-serif">
 
   <!-- Hero Section -->
   <section class="relative w-full min-h-screen overflow-hidden flex items-center bg-black">
-    <!-- Background Image -->
     <img src="/assets/images/bg1.jpg" alt="Background" class="absolute inset-0 w-full h-full object-cover z-0" />
     <div class="absolute inset-0 bg-black/50 z-10"></div>
 
-    <!-- Main Content Container -->
     <div class="relative z-20 w-full flex flex-col lg:flex-row items-center justify-between gap-10 px-[0px] lg:px-[100px]">
-
-      <!-- Left: Text Content -->
+      <!-- Left Content -->
       <div class="flex-1 pt-10 lg:pt-0 text-center lg:text-left flex flex-col items-center lg:items-start">
         <h1 class="text-6xl lg:text-9xl font-[Baskerville] relaxed">
           Shayne<br>
@@ -67,13 +70,11 @@
 
       <!-- Right: Combined Image -->
       <div class="relative w-full h-auto mt-10 lg:flex-1 lg:h-full lg:relative">
-
-
-       <!-- Combined 3 Men Image -->
-<div class="relative w-full h-auto mt-[7vh] lg:mt-[105vh]">
-  <img src="/assets/images/รวมคุณเชน.png" alt="Three Men Combined"
-       class="w-full transform scale-[1.25] origin-bottom mb-12 lg:scale-100 lg:w-[60vw] lg:max-w-[1000px] lg:absolute lg:bottom-0 lg:left-1/2 lg:-translate-x-1/2 z-20" />
-</div>
+        <!-- Combined Image -->
+        <div class="relative w-full h-auto mt-[7vh] lg:mt-[105vh]">
+          <img src="/assets/images/รวมคุณเชน.png" alt="Three Men Combined"
+               class="w-full transform scale-[1.25] origin-bottom mb-12 lg:scale-100 lg:w-[60vw] lg:max-w-[1000px] lg:absolute lg:bottom-0 lg:left-1/2 lg:-translate-x-1/2 z-20" />
+        </div>
 
         <!-- Social Icons (Mobile only) -->
         <div class="flex gap-3 justify-center mt-6 mb-6 block lg:hidden relative z-30">
@@ -84,7 +85,7 @@
             <img src="/assets/images/icon/Facebookดำ.svg" alt="Facebook" class="w-5 h-5 hidden group-hover:block" />
           </a>
 
-          <!-- X (Twitter) -->
+          <!-- Twitter -->
           <a href="https://x.com/Livetradingnews" aria-label="X"
              class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white group">
             <img src="/assets/images/icon/twitterขาว.svg" alt="X" class="w-5 h-5 group-hover:hidden" />
@@ -105,8 +106,6 @@
             <img src="/assets/images/icon/WEBดำ.svg" alt="Website" class="w-5 h-5 hidden group-hover:block" />
           </a>
         </div>
-
-
       </div>
     </div>
   </section>

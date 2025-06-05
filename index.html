@@ -8,11 +8,6 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/font.css">
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- ✅ Preload Hover Icons -->
-  <link rel="preload" href="/assets/images/icon/Facebookดำ.svg" as="image">
-  <link rel="preload" href="/assets/images/icon/Twitterดำ.svg" as="image">
-  <link rel="preload" href="/assets/images/icon/Linkedinดำ.svg" as="image">
   <link rel="preload" href="/assets/images/icon/WEBดำ.svg" as="image">
 </head>
 
@@ -37,35 +32,41 @@
         </a>
 
         <!-- Social Icons (Desktop only) -->
-        <div class="hidden lg:flex gap-4 m-top">
-          <!-- Facebook -->
-          <a href="https://www.facebook.com/LiveTradingNews" aria-label="Facebook"
-             class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white group">
-            <img src="/assets/images/icon/facebookขาว.svg" alt="Facebook" class="w-5 h-5 group-hover:hidden" />
-            <img src="/assets/images/icon/Facebookดำ.svg" alt="Facebook" class="w-5 h-5 hidden group-hover:block" />
-          </a>
+<div class="hidden lg:flex gap-4 m-top">
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/LiveTradingNews" aria-label="Facebook"
+     class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white transition">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" class="w-5 h-5 fill-white hover:fill-black transition">
+      <path d="M704.28,108.49v136.5h-102.22c-4.97,0-26.9,17.06-26.9,23.35v98.78h129.12l-17.93,136.5h-111.18v387.94h-172.16v-387.94h-93.25v-136.5h93.25v-123.93c0-4.79,9.07-35.55,11.57-42.29,42.56-114.82,192.86-88.46,289.7-92.41Z"/>
+    </svg>
+  </a>
 
-          <!-- Twitter -->
-          <a href="https://x.com/Livetradingnews" aria-label="X"
-             class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white group">
-            <img src="/assets/images/icon/twitterขาว.svg" alt="X" class="w-5 h-5 group-hover:hidden" />
-            <img src="/assets/images/icon/Twitterดำ.svg" alt="X" class="w-5 h-5 hidden group-hover:block" />
-          </a>
+  <!-- Twitter -->
+  <a href="https://x.com/Livetradingnews" aria-label="X"
+     class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white transition">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" class="w-5 h-5 fill-white hover:fill-black transition">
+      <path d="M326.18,17.17l205.4,304.17,16.55-12.22L777.63,17.17h147.27l-322.38,407.93,380.32,557.73h-296.95l-231.95-333.14-16.57,12.2-253.63,320.93H36.47l342.76-436.84L17.16,17.17h309.02ZM804.19,886.26l-66.53-104.88L275.48,108.91h-84.5l538.37,777.35h74.84Z"/>
+    </svg>
+  </a>
 
-          <!-- LinkedIn -->
-          <a href="https://www.linkedin.com/in/shayneh/" aria-label="LinkedIn"
-             class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white group">
-            <img src="/assets/images/icon/Linkedinขาว.svg" alt="LinkedIn" class="w-5 h-5 group-hover:hidden" />
-            <img src="/assets/images/icon/Linkedinดำ.svg" alt="LinkedIn" class="w-5 h-5 hidden group-hover:block" />
-          </a>
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/shayneh/" aria-label="LinkedIn"
+     class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white transition">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" class="w-5 h-5 fill-white hover:fill-black transition">
+      <path d="M980.78,983.27h-193.18v-355.07c0-8.45-11.5-51.79-15.5-61.79-36.44-91.07-159.22-62.6-191.06,19.41-4.91,12.65-15.59,54.9-15.59,66.53v330.92h-193.18V355.25h178.69v82.13c66.5-91,189.79-109.94,293.53-78.64,107.95,32.57,130.82,134.5,136.49,235.45,7.15,127.22-5.74,261.19-.2,389.09Z"/>
+      <rect class="cls-1" x="43.86" y="345.59" width="193.18" height="628.02"/>
+      <path class="cls-1" d="M119.96,18.37c167.79-24.09,192.78,225.25,37,244.67C-6.32,283.38-37.58,40.99,119.96,18.37Z"/>
+    </svg>
+  </a>
 
-          <!-- Globe -->
-          <a href="https://www.livetradingnews.com/" aria-label="Website"
+  <!-- Globe -->
+  <a href="https://www.livetradingnews.com/" aria-label="Website"
              class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white group">
             <img src="/assets/images/icon/Webขาว.svg" alt="Website" class="w-5 h-5 group-hover:hidden" />
             <img src="/assets/images/icon/WEBดำ.svg" alt="Website" class="w-5 h-5 hidden group-hover:block" />
           </a>
-        </div>
+</div>
+
       </div>
 
       <!-- Right: Combined Image -->
@@ -79,33 +80,38 @@
         <!-- Social Icons (Mobile only) -->
         <div class="flex gap-3 justify-center mt-6 mb-6 block lg:hidden relative z-30">
           <!-- Facebook -->
-          <a href="https://www.facebook.com/LiveTradingNews" aria-label="Facebook"
-             class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white group">
-            <img src="/assets/images/icon/facebookขาว.svg" alt="Facebook" class="w-5 h-5 group-hover:hidden" />
-            <img src="/assets/images/icon/Facebookดำ.svg" alt="Facebook" class="w-5 h-5 hidden group-hover:block" />
-          </a>
+  <a href="https://www.facebook.com/LiveTradingNews" aria-label="Facebook"
+     class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white transition">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" class="w-5 h-5 fill-white hover:fill-black transition">
+      <path d="M704.28,108.49v136.5h-102.22c-4.97,0-26.9,17.06-26.9,23.35v98.78h129.12l-17.93,136.5h-111.18v387.94h-172.16v-387.94h-93.25v-136.5h93.25v-123.93c0-4.79,9.07-35.55,11.57-42.29,42.56-114.82,192.86-88.46,289.7-92.41Z"/>
+    </svg>
+  </a>
 
-          <!-- Twitter -->
-          <a href="https://x.com/Livetradingnews" aria-label="X"
-             class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white group">
-            <img src="/assets/images/icon/twitterขาว.svg" alt="X" class="w-5 h-5 group-hover:hidden" />
-            <img src="/assets/images/icon/Twitterดำ.svg" alt="X" class="w-5 h-5 hidden group-hover:block" />
-          </a>
+  <!-- Twitter -->
+  <a href="https://x.com/Livetradingnews" aria-label="X"
+     class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white transition">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" class="w-5 h-5 fill-white hover:fill-black transition">
+      <path d="M326.18,17.17l205.4,304.17,16.55-12.22L777.63,17.17h147.27l-322.38,407.93,380.32,557.73h-296.95l-231.95-333.14-16.57,12.2-253.63,320.93H36.47l342.76-436.84L17.16,17.17h309.02ZM804.19,886.26l-66.53-104.88L275.48,108.91h-84.5l538.37,777.35h74.84Z"/>
+    </svg>
+  </a>
 
-          <!-- LinkedIn -->
-          <a href="https://www.linkedin.com/in/shayneh/" aria-label="LinkedIn"
-             class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white group">
-            <img src="/assets/images/icon/Linkedinขาว.svg" alt="LinkedIn" class="w-5 h-5 group-hover:hidden" />
-            <img src="/assets/images/icon/Linkedinดำ.svg" alt="LinkedIn" class="w-5 h-5 hidden group-hover:block" />
-          </a>
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/shayneh/" aria-label="LinkedIn"
+     class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white transition">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" class="w-5 h-5 fill-white hover:fill-black transition">
+      <path d="M980.78,983.27h-193.18v-355.07c0-8.45-11.5-51.79-15.5-61.79-36.44-91.07-159.22-62.6-191.06,19.41-4.91,12.65-15.59,54.9-15.59,66.53v330.92h-193.18V355.25h178.69v82.13c66.5-91,189.79-109.94,293.53-78.64,107.95,32.57,130.82,134.5,136.49,235.45,7.15,127.22-5.74,261.19-.2,389.09Z"/>
+      <rect class="cls-1" x="43.86" y="345.59" width="193.18" height="628.02"/>
+      <path class="cls-1" d="M119.96,18.37c167.79-24.09,192.78,225.25,37,244.67C-6.32,283.38-37.58,40.99,119.96,18.37Z"/>
+    </svg>
+  </a>
 
-          <!-- Globe -->
-          <a href="https://www.livetradingnews.com/" aria-label="Website"
+  <!-- Globe -->
+  <a href="https://www.livetradingnews.com/" aria-label="Website"
              class="w-10 h-10 flex items-center justify-center rounded-full border border-white bg-transparent hover:bg-white group">
             <img src="/assets/images/icon/Webขาว.svg" alt="Website" class="w-5 h-5 group-hover:hidden" />
             <img src="/assets/images/icon/WEBดำ.svg" alt="Website" class="w-5 h-5 hidden group-hover:block" />
           </a>
-        </div>
+</div>
       </div>
     </div>
   </section>
